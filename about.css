@@ -1,0 +1,190 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display:flex;
+    position: fixed;
+    top:0px;
+    left:0px;
+    right: 0px;
+    width: 100%;
+    background-color: lightseagreen;
+    padding: 5px;
+    height: 85px;
+}
+.logo{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    height: 60px;
+    width: 60px;
+}
+.cont ul{
+    float: right;
+    margin: 30px;
+}
+.cont ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 0px 5px;
+}
+.cont ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 100px;
+}
+.fab {
+    color: palevioletred;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+}
+h1{
+    padding: 100px 0px 20px 0px;
+    text-align: center;
+    color: palevioletred;
+    font-size: 50px;
+}
+.coll{
+    font-size: 30px;
+}
+h2{
+    text-align: center;
+    color: purple;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+}
+.fab{
+    margin: 0px 0px 0px 530px;
+    height: 250px;
+    width: 250px;
+    /* border-radius: 200px; */
+
+}
+.card{
+    /* border: 2px solid pink; */
+    padding-left: 300px;
+    margin-top: 10px;
+}
+.col-12{
+    margin-left: 270px;
+}
+.logo{
+    border-radius: 0px;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+    border-radius: 80px;
+}
+.title{
+    margin-left: 35px;
+}
+.image1{
+    margin-left: 140px;
+    margin-top: -122px;
+}
+.tit{
+    margin-left: 50px;
+}
+.image2{
+    margin-left: 280px;
+    margin-top: -122px;
+}
+.tit1{
+    margin-left: 45px;
+}
+.image3{
+    margin-left: 420px;
+    margin-top: -122px;
+}
+.tit2{
+    margin-left: 28px;
+}
+
+.image4{
+    margin-left: 560px;
+    margin-top: -122px;
+}
+.tit3{
+    margin-left: 45px;
+}
+.image5{
+    margin-left: 700px;
+    margin-top: -122px;
+}
+.tit4{
+    margin-left: 55px;
+}
+.next{
+    margin-top: 10px;
+}
+.web{
+    font-size: 30px;
+    margin-top: 20px;
+}
+video{
+    margin-left: 580px;
+    margin-top: -30px;
+}
+.card{
+    margin-left: 90px;
+}
+.about{
+    font-size: 20px;
+    margin: 0px 0px 20px 0px;
+}
+@media(min-width:320px) and (max-width:480px)
+{
+    .logo{
+        height:50px;
+        width:50px;
+    }
+    nav{
+        display:flex;
+        position: fixed;
+        top:0px;
+        left:0px;
+        right: 0px;
+        width: 100%;
+        background-color: lightseagreen;
+        padding: 5px;
+        height: 65px;
+    }
+    .cont ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+        padding: 0px;
+    }
+    h1{
+        padding: 100px 0px 20px 0px;
+        text-align: center;
+        color: palevioletred;
+        font-size: 20px;
+    }
+    p{
+        font-size: 10px;
+    }
+    .fab{
+        margin: 0px 0px 0px 15px;
+        height: 250px;
+        width: 250px;
+    
+    }
+    .web{
+        font-size: 25px;
+    }
+    vide0{
+        margin: 0px 10px 0px 20px;
+    }
+    footer{
+        font-size: 15px;
+        margin: 0px 0px 20px 0px;
+    }
+}
